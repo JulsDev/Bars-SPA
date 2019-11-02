@@ -1,0 +1,25 @@
+.contacts{
+  &--color{
+    &--white{
+      color: $white;
+    }
+    &--green{
+      color: $green;
+    }
+  }
+}
+
+.contacts__icon{
+  width: 12px;
+  height: 11px;
+  fill: #ffffff;
+  margin-right: 6px;
+}
+
+.contacts__number{
+  font-family: "alegreya_sans";
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $white;
+}

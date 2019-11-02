@@ -1,0 +1,31 @@
+.title{
+  font-family: "alegreya_sans";
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2%;
+
+  &--color{
+    &--white{
+      color: $white;
+    }
+    &--black{
+      color: $black;
+    }
+    &--green{
+      color: $green;
+    }
+  }
+
+  &--size{
+    &--big{
+      font-size: 60px;
+    }
+    &--middle{
+      font-size: 48px;
+    }
+    &--small{
+      font-size: 36px;
+    }
+  }
+}

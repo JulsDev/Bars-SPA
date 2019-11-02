@@ -1,0 +1,28 @@
+.service{
+  max-width: 470px;
+  font-size: 16px;
+}
+
+.servise__list,
+.service__item{
+  display: flex;
+  align-items: center;
+}
+
+.service__item{
+  margin-right: 47px;
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.service__icon{
+  width: 50px;
+  height: 40px;
+  margin-right: 12px;
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
