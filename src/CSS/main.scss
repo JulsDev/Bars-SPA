@@ -4,6 +4,7 @@ $bg: #61c4d9;
 $green: #0f5a47;
 $black: #0d0d0d;
 $white: #ffffff;
+$border-color: #dde3bd;
 
 // notmalize
 @import "_misc/normalize.scss";
@@ -12,16 +13,3 @@ $white: #ffffff;
 @import "_misc/*.scss";
 
 @import "blocks/*.scss";
-
-// @import "blocks/section.scss";
-// @import "blocks/hero.scss";
-// @import "blocks/header.scss";
-// @import "blocks/navigation.scss";
-// @import "blocks/contacts.scss";
-
-// @import "blocks/title.scss";
-// @import "blocks/button.scss";
-
-// @import "blocks/service.scss";
-
-// @import "blocks/fixed-menu.scss";

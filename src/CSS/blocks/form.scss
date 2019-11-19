@@ -1,0 +1,137 @@
+.form {
+  background: url('../../img/form/form-bg.png') center center no-repeat;
+  background-size: cover;
+}
+
+.container__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title__form {
+  padding-top: 90px;
+  margin-bottom: 60px;
+}
+
+.order__form {
+  display: flex;
+  max-width: 941px;
+  width: 100%;
+}
+
+.form__col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.form__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form__block {
+  display: flex;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 20px;
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.form__label_input {
+  border-radius: 5px;
+  width: 100%;
+  height: 55px;
+  border: 2px solid #dde3bd;
+  background-color: #ffffff;
+  padding: 11px 22px;
+  outline: transparent;
+
+  &:focus {
+    border: 2px solid $green;
+    border-radius: 5px;
+  }
+}
+
+.form__label_name {
+  color: $green;
+  font-family: "alegreya_sans";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+// Textarea
+.form__comment {
+  max-height: 180px;
+  height: 100%;
+  border: 2px solid $border-color;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 11px 22px;
+  outline: transparent;
+  resize: none;
+
+  &:focus {
+    border: 2px solid $green;
+    border-radius: 5px;
+  }
+}
+
+.form__label-comment{
+  margin-bottom: 21px;
+}
+.form__choose-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 42px;
+}
+.form__radio_label {
+  margin-right: 23px;
+}
+.radio-button__item,
+.checkbox__not-call {
+  margin-right: 10px;
+}
+.form__radio-button {
+  margin-bottom: 10px;
+}
+
+.form__buttons_submit {
+  max-height: 60px;
+  margin-right: 30px;
+}
+.form__buttons_resert {
+  outline: transparent;
+}
+
+.checkbox-custom {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../img/form/box.png');
+}
+.checkbox__label{
+  padding-left: 30px;
+}
+.checkbox__not-call:checked + .checkbox-custom {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../img/form/check-box.png');
+}

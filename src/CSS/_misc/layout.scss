@@ -17,13 +17,8 @@ body{
 .wrapper {
   position: relative;
   width: 100%;
-  min-width: 940px + 20px;
   min-height: 100%;
   overflow: hidden;
-}
-
-.section {
-  position: relative;
 }
 
 .container{
@@ -33,6 +28,16 @@ body{
   height: 100%;
 }
 
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 h1, h2, h3, h4, h5, h6{
   margin: 0;
